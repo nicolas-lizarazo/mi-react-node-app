@@ -21,3 +21,5 @@ yarn-error.log*
 # Archivos del sistema y editores
 .DS_Store
 .vscode/
+.vercel
+.env*

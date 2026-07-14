@@ -11,3 +11,5 @@ app.get("/api/saludo", (req, res) => {
         mensaje: "Hola desde Vercel el backend con React + Node.js"
     });
 });
+
+module.exports = app;
