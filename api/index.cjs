@@ -1,5 +1,5 @@
-import express from "express";
-import cors from "cors";
+const express = require("express");
+const cors = require("cors");
 
 const app = express();
 
@@ -12,4 +12,4 @@ app.get("/api/saludo", (req, res) => {
     });
 });
 
-export default app;
+module.exports = app;
